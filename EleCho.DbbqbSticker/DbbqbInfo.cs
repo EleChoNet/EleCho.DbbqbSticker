@@ -5,7 +5,7 @@ namespace EleCho.DbbqbSticker
     /// <summary>
     /// 逗逼表情包信息 Funny sticker infomation
     /// </summary>
-    public class DbbqbInfo
+    public record class DbbqbInfo
     {
         private static readonly Uri BaseUri = new Uri("https://image.dbbqb.com");
 
